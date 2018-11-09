@@ -1,0 +1,9 @@
+{
+  "bracketSpacing": true,
+  "bracesSpacing": true,
+  "breakBeforeElse": true,
+  "jsxBracketSameLine": false,
+  "printWidth": 100,
+  "singleQuote": true,
+  "spaceBeforeFunctionParen": true
+}

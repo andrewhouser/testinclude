@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules
+.cache
+.sass-cache
+
+# Optional npm cache directory
+.npm
+
+# Directories
+dist
+
+# Hidden / Build files
+.DS_Store
+.classpath
+.project
+.vscode
+.eslintrc.json
+
+/package-lock.json
