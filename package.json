@@ -9,6 +9,10 @@
   "keywords": [],
   "author": "Andrew Houser",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewhouser/testinclude"
+  },
   "dependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "prop-types": "^15.6.2",
