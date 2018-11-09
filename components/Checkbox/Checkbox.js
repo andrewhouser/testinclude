@@ -3,19 +3,13 @@ import PropTypes from 'prop-types';
 import shortid from 'shortid';
 
 export default class Checkbox extends Component {
-  static defaultProps = {
-    label: null,
-    val: 1
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      checked: false
+    };
   }
-
-  static propTypes = {
-    label: PropTypes.string,
-    val: PropTypes.string
-  };
-
-  state = {
-    checked: false
-  };
 
   handleClick = () => {
     this.setState((prevState, props) => {
@@ -35,4 +29,14 @@ export default class Checkbox extends Component {
       </Fragment>
     );
   }
+}
+
+Checkbox.defaultProps = {
+  label: null,
+  val: 1
+};
+
+Checkbox.propTypes = {
+  label: PropTypes.string,
+  val: PropTypes.string
 };
